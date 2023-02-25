@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_triangle - prints a triangle of squares according to par
+ * print_triangle - Prints a triangle of squares according to par
  * @size: The size of the squares in triangle
  * Return: Empty
  */
@@ -24,7 +24,7 @@ void print_triangle(int size)
 			{
 				_putchar(35);
 			}
+			_putchar('\n');
 		}
-		_putchar('\n');
 	}
 }
